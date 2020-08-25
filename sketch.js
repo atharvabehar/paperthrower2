@@ -42,14 +42,14 @@ function setup() {
 function draw() {
   
   background("grey");
-  imageMode(CENTER);
-  image(dustbin,600,620,175,75)
-  ball.display();
   ground.display();
   rect1.display();
   rect2.display();
   rect3.display();
  // dustbin.display();
+  imageMode(CENTER);
+ image(dustbin,600,620,175,75)
+  ball.display();
  
 }
 function keyPressed(){
